@@ -190,7 +190,7 @@ def big_shoe_rebounds
   player_array.each do |player|
     shoe_array << player[:shoe]
     rebound_array << player[:rebounds]
-      binding.pry 
+      binding.pry
     end
   end
 end
