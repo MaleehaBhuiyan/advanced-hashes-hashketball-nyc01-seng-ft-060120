@@ -168,6 +168,7 @@ def player_numbers(team)
       team_info[:players].each do |player|
     #team_info.each do |attribute, attribute_info|
       binding.pry
+    end 
     end
   end
 end
