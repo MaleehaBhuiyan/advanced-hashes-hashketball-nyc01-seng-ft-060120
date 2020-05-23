@@ -184,6 +184,5 @@ end
 
 def big_shoe_rebounds
   player_array = []
-  player_array = game_hash[:home][:players] + game_hash[:away][:players]
-  binding.pry 
+  player_array = game_hash[:home][:players] + game_hash[:away][:players] 
 end
