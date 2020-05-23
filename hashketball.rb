@@ -184,6 +184,8 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds
-  player_array = []
+  shoe_array = []
+  rebound_array = []
   player_array = game_hash[:home][:players] + game_hash[:away][:players]
+  binding.pry 
 end
