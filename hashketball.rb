@@ -189,6 +189,6 @@ def big_shoe_rebounds
   player_array = game_hash[:home][:players] + game_hash[:away][:players]
   player_array.each do |player|
     player.each do |name_of_stat, stat_value|
-    binding.pry 
+    binding.pry
   end
 end
