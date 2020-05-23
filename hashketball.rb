@@ -150,6 +150,6 @@ end
 
 
 def team_colors(team)
-  game_hash
-  binding.pry 
+  game_hash.each do |location, team_info|
+  binding.pry
 end
