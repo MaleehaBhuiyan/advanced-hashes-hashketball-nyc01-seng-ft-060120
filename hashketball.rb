@@ -167,7 +167,7 @@ def player_numbers(team)
     team_info.each do |attribute, attribute_info|
       if team == :team_name
   binding.pry
-end ß
+end 
 end
 end
 end
