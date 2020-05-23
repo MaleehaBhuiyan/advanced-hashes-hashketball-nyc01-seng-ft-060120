@@ -167,7 +167,7 @@ def player_numbers(team)
     if team == team_info[:team_name]
       team_info[:players].each do |player|
         binding.pry 
-        #return jersey_array << player[:number]
+        jersey_array << player[:number]
       end
     end
   end
