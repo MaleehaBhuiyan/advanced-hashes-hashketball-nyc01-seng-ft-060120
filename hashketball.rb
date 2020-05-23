@@ -190,8 +190,7 @@ def big_shoe_rebounds
   player_array.each do |player|
     shoe_array << player[:shoe]
     rebound_array << player[:rebounds]
-    shoe_rebound_hash = {}
-    shoe_rebound_hash[rebound_array.zip(shoe_array)]
-    binding.pry 
+    shoe_rebound_hash = shoe_rebound_hash[rebound_array.zip(shoe_array)]
+    binding.pry
   end
 end
