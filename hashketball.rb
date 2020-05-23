@@ -193,5 +193,4 @@ def big_shoe_rebounds
     shoe_rebound_hash = Hash[rebound_array.zip(shoe_array)]
     shoe_rebound_hash.key(shoe_rebound_hash.values.max)
   end
-  return shoe_rebound_hash.key(shoe_rebound_hash.values.max)
 end
