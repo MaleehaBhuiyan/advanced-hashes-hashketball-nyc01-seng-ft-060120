@@ -165,12 +165,9 @@ def player_numbers(team)
   #jersey_array = []
   game_hash.each do |location, team_info|
     if team == team_info[:team_name]
-      team_info[:players].each do |player_info|
-        player_info.map do |stat_name, stat|
-
-        #return jersey_array << player[:number]
+      team_info[:players].each do |player|
+        return jersey_array << player[:number]
         binding.pry
-      end 
       end
     end
   end
