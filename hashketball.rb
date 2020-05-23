@@ -157,5 +157,5 @@ def team_colors(team)
   end
 end
 
-def team_name(team)
-end 
+def team_name
+end
