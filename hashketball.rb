@@ -147,7 +147,7 @@ def shoe_size(name)
      end
    end
 end
-=end 
+=end
 
 def team_colors(team)
   binding.pry 
