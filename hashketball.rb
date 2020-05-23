@@ -128,7 +128,7 @@ def game_hash
   }
 end
 
-=begingdef num_points_scored(name)
+def num_points_scored(name)
   player_array = []
   player_array = game_hash[:home][:players] + game_hash[:away][:players]
   player_array.each do |player_stats|
@@ -147,8 +147,8 @@ def shoe_size(name)
      end
    end
 end
-=end
+
 
 def team_colors(team)
-  binding.pry 
+  binding.pry
 end
