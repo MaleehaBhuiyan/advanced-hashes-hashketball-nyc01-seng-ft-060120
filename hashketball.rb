@@ -137,3 +137,13 @@ def num_points_scored(name)
      end
    end
 end
+
+def show_size(name)
+  player_array = []
+  player_array = game_hash[:home][:players] + game_hash[:away][:players]
+  player_array.each do |player_stats|
+    if name == player_stats[:player_name]
+       return player_stats[:shoe_size]
+     end
+   end
+end
