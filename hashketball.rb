@@ -166,5 +166,6 @@ def player_numbers(team)
   game_hash.each do |location, team_info|
     team_info.each do |attribute, attribute_info|
   binding.pry
+end 
 end
 end
