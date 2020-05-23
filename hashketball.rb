@@ -161,6 +161,8 @@ def team_names
   team_name_array = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end
 
-def player_numbers(name)
-  binding.pry 
+def player_numbers(team)
+  game_hash.each do |location, team_info|
+  binding.pry
+end 
 end
