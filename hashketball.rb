@@ -6,7 +6,7 @@ def game_hash
     home: {
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
-      players: [
+      players: {
         {
           player_name: "Alan Anderson",
           number: 0,
@@ -62,12 +62,12 @@ def game_hash
           blocks: 11,
           slam_dunks: 1
         }
-      ]
+      }
     },
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
-      players: [
+      players: {
         {
           player_name: "Jeff Adrien",
           number: 4,
@@ -123,13 +123,12 @@ def game_hash
           blocks: 5,
           slam_dunks: 12
         }
-      ]
+      }
     }
   }
 end
 
 def num_points_scored(name)
-  players = game_hash[:home][:players].merge(game_hash[:away][:players])
-  players[name][:points]
+  
   binding.pry
 end
