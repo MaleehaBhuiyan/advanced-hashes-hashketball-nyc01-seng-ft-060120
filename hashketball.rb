@@ -168,7 +168,7 @@ def player_numbers(team)
       team_info[:players].each do |player|
         jersey_array << player[:number]
         binding.pry
-      end 
+      end
       end
     end
   end
