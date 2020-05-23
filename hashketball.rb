@@ -169,7 +169,6 @@ def player_numbers(team)
         jersey_array << player[:number]
         binding.pry
       end
-      end
     end
   end
 end
