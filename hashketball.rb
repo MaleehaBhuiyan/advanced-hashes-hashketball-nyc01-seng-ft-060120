@@ -190,6 +190,6 @@ def big_shoe_rebounds
   player_array.each do |player|
     player.each do |name_of_stat, stat_value|
       binding.pry 
-    end 
+    end
   end
 end
