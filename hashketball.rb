@@ -130,7 +130,6 @@ end
 
 def num_points_scored(name)
   player_array = []
-  player_array << game_hash[:home][:players]
-  player_array << game_hash[:away][:players]
+  player_array = game_hash[:home][:players] + game_hash[:away][:players]
   binding.pry
 end
