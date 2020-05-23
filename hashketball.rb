@@ -129,38 +129,3 @@ def game_hash
 end
 
 
-# Write code here
-=begin
-def num_points_scored(name)
-  point_hash = {}
-  game_hash.each do |location, team_data|
-    team_data[:players].each do |number|
-      point_hash[number[:player_name]] = number[:points]
-      if name == [number[:player_name]]
-        return number[:points]
-      end
-    end
-  end
-end
-=end
-
-def shoe_size(name)
-end
-
-def team_colors(team)
-  game_hash.each do |team, team_data|
-    if team_data[:team_name] == team_name
-      return team_data[:colors]
-    end
-  end
-end
-
-def team_names
-  game_hash.collect{|team, team_data| team_data[:team_name]}
-end
-
-def player_numbers(team)
-end
-
-def player_stats(name)
-end
