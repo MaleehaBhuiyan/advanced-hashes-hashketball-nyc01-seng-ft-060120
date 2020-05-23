@@ -191,7 +191,7 @@ def big_shoe_rebounds
     shoe_array << player[:shoe]
     rebound_array << player[:rebounds]
     shoe_rebound_hash = Hash[rebound_array.zip(shoe_array)]
-    key_with_max_value = shoe_rebound_hash.max_by { |shoe, rebound| rebound }[0]
+    key_with_max_value = shoe_rebound_hash.max_by { |rebound, shoe| rebound }[0]
     return key_with_max_value
   end
 end
