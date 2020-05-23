@@ -170,7 +170,7 @@ def player_numbers(team)
       end
     end
   end
-  return jersey_array << player[:number]
+  jersey_array << player[:number]
 end
 
 def player_stats(name)
