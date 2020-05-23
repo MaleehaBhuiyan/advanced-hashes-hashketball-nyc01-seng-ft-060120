@@ -193,4 +193,5 @@ def big_shoe_rebounds
     rebound_array << player[:rebounds]
     shoe_rebound_hash[rebound_array.zip(rebound_array)]
   end
+  return shoe_rebound_hash
 end
