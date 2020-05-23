@@ -168,6 +168,7 @@ def player_numbers(team)
       team_info[:players].each do |player|
         #return jersey_array << player[:number]
       end
+      return jersey_array << player[:number]
     end
   end
 end
